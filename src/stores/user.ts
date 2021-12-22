@@ -1,6 +1,6 @@
 import { writable } from "svelte/store"
-import { axios } from "./axios"
-import { BASEURL } from "./apiFetch"
+import { axios } from "../lib/axios"
+import { BASEURL } from "../lib/apiFetch"
 function userStore(){
     const user = writable(null)
 

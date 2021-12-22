@@ -5,7 +5,7 @@
 	import FaEye from 'svelte-icons/fa/FaEye.svelte'
 	import FaEyeSlash from 'svelte-icons/fa/FaEyeSlash.svelte'
 	import checkStrenght from '../lib/checkPassword'
-	import { theme } from '$lib/theme';
+	import { theme } from '$stores/theme';
 	export let title = ''
 	export let value = ''
 	export let status: statusType = ''

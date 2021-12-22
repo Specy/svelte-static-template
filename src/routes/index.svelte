@@ -1,8 +1,41 @@
 <script lang="ts">
+	import FaPlus from 'svelte-icons/fa/FaPlus.svelte'
+	import Button from '$cmp/Button.svelte'
+	import Title from '$cmp/Title.svelte'
+	import Icon from '$cmp/Icon.svelte'
+	import Card from '$cmp/Card.svelte';
+	import { toast } from '$cmp/toast';
+
+	let counter = 0
+	function handleClick(event){
+		counter++
+		if(counter % 5 === 0){
+			toast.success("Woohoo clicked 5 times")
+		}
+	}
+
 </script>
+
 <title>
-	Svelte template
+	Template
 </title>
+
 <div>
-	<h1>Hello world!</h1>
+	<Title>
+		{counter}
+	</Title>
+	<Card>
+		<Button on:click={handleClick} style='width:8rem;'> 
+			Click me 
+			<Icon style='margin-left: 0.5rem'>
+				<FaPlus />
+			</Icon>
+		</Button>
+	</Card>
 </div>
+
+
+<style lang="scss">
+	@import '../variables.scss';
+
+</style>

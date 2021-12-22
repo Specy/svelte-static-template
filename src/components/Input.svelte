@@ -3,7 +3,7 @@
 	import FaExclamationCircle from 'svelte-icons/fa/FaExclamationCircle.svelte'
 	import FaCheckCircle from 'svelte-icons/fa/FaCheckCircle.svelte'
 	import FaRegCircle from 'svelte-icons/fa/FaRegCircle.svelte'
-	import { theme } from '$lib/theme';
+	import { theme } from '$stores/theme';
 	export let title = ''
 	export let value = ''
 	export let status: statusType = ''

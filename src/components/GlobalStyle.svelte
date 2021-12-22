@@ -12,9 +12,6 @@
 	:global(html) {
 		overflow-y: scroll;
 	}
-	:global(*){
-		transition: background-color 0.3s, color 0.1s;
-	}
 	:global(.body-dark){
 		background-color: #181a1b;
 		color: #bfbfbf;
@@ -30,11 +27,14 @@
 		font-family: Orienta;
 		box-sizing: border-box;
 		-webkit-tap-highlight-color: transparent;
+		-webkit-appearance: none;
+		-webkit-border-radius: none;
+		border-radius: none;
 		outline: none;
 	}
 	:global(a) {
 		text-decoration: none;
-		color: $textFlip;
+		color: $textDark;
 	}
 	@media (min-width: 650px) {
 		:global(::-webkit-scrollbar) {
