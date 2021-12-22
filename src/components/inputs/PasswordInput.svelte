@@ -1,11 +1,12 @@
 <script lang="ts">
-	type statusType = '' | 'correct' | 'wrong'
 	import FaExclamationCircle from 'svelte-icons/fa/FaExclamationCircle.svelte'
 	import FaCheckCircle from 'svelte-icons/fa/FaCheckCircle.svelte'
 	import FaEye from 'svelte-icons/fa/FaEye.svelte'
 	import FaEyeSlash from 'svelte-icons/fa/FaEyeSlash.svelte'
-	import checkStrenght from '../lib/checkPassword'
+	import checkStrenght from '../../lib/checkPassword'
 	import { theme } from '$stores/theme';
+	type statusType = '' | 'correct' | 'wrong'
+
 	export let title = ''
 	export let value = ''
 	export let status: statusType = ''
@@ -74,7 +75,7 @@
 </div>
 
 <style lang="scss">
-	@import '../variables.scss';
+	@import '../../variables.scss';
 	.password-strength {
 		width: 100%;
 		text-align: right;

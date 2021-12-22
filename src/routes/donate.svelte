@@ -1,6 +1,6 @@
 <script lang="ts">
-	import Card from '$cmp/Card.svelte'
-	import Title from '$cmp/Title.svelte'
+	import Card from '$cmp/layout/Card.svelte'
+	import Title from '$cmp/layout/Title.svelte'
 </script>
 
 <div class="page">

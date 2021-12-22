@@ -1,5 +1,6 @@
 <script>
 	import { createEventDispatcher } from 'svelte'
+	export let style = ''
 	const dispatch = createEventDispatcher()
 	function submit(e) {
 		e.preventDefault()
@@ -7,7 +8,7 @@
 	}
 </script>
 
-<form on:submit={submit} >
+<form on:submit={submit} {style}>
     <slot/>
 </form>
 

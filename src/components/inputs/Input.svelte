@@ -1,9 +1,9 @@
 <script lang="ts">
-	type statusType = '' | 'correct' | 'wrong'
 	import FaExclamationCircle from 'svelte-icons/fa/FaExclamationCircle.svelte'
 	import FaCheckCircle from 'svelte-icons/fa/FaCheckCircle.svelte'
 	import FaRegCircle from 'svelte-icons/fa/FaRegCircle.svelte'
 	import { theme } from '$stores/theme';
+	type statusType = '' | 'correct' | 'wrong'
 	export let title = ''
 	export let value = ''
 	export let status: statusType = ''
@@ -40,7 +40,7 @@
 </div>
 
 <style lang="scss">
-	@import '../variables.scss';
+	@import '../../variables.scss';
 	.input-row {
 		display: flex;
 		align-items: center;

@@ -1,10 +1,10 @@
 <script lang="ts">
 	import '../global.css'
-	import Footer from '$cmp/Footer.svelte'
-	import ErrorLogger from '$cmp/ErrorLogger.svelte'
-	import PageTransition from '$cmp/PageTransition.svelte'
+	import Footer from '$cmp/layout/Footer.svelte'
+	import ErrorLogger from '$cmp/misc/ErrorLogger.svelte'
+	import PageTransition from '$cmp/layout/PageTransition.svelte'
 	import { page } from '$app/stores'
-	import Nav from '$cmp/Nav.svelte'
+	import Nav from '$cmp/layout/Nav.svelte'
 	import { theme } from '$stores/theme'
 	import { browser } from '$app/env'
 	theme.subscribe((value) => {

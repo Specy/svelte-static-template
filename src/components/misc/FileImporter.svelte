@@ -1,6 +1,6 @@
 <script lang="ts">
 	export let accept = '*'
-	type inputTypes = 'text' | 'buffer'
+	type inputTypes = 'text' | 'buffer' | 'dataUrl'
 	export let as: inputTypes = 'text'
 	import { createEventDispatcher } from 'svelte'
 
@@ -19,6 +19,7 @@
 		}
 		if (as === 'text') fileReader.readAsText(file)
 		if (as === 'buffer') fileReader.readAsArrayBuffer(file)
+		if (as === 'dataUrl') fileReader.readAsDataURL(file)
 	}
 </script>
 

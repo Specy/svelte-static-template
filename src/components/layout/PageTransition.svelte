@@ -11,7 +11,7 @@
 {/key}
 
 <style lang="scss">
-    @import "../variables.scss";
+    @import "../../variables.scss";
     .dark{
         background-color: #181a1b;
 		color: $textWhite;

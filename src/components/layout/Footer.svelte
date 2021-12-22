@@ -59,7 +59,7 @@
 </footer>
 
 <style lang="scss">
-	@import '../variables.scss';
+	@import '../../variables.scss';
 	.logo-wrapper {
 		display: flex;
 		align-items: center;

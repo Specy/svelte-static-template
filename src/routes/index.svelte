@@ -1,9 +1,9 @@
 <script lang="ts">
 	import FaPlus from 'svelte-icons/fa/FaPlus.svelte'
-	import Button from '$cmp/Button.svelte'
-	import Title from '$cmp/Title.svelte'
-	import Icon from '$cmp/Icon.svelte'
-	import Card from '$cmp/Card.svelte';
+	import Button from '$cmp/buttons/Button.svelte'
+	import Title from '$cmp/layout/Title.svelte'
+	import Icon from '$cmp/layout/Icon.svelte'
+	import Card from '$cmp/layout/Card.svelte';
 	import { toast } from '$cmp/toast';
 
 	let counter = 0

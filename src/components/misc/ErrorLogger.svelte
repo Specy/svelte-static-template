@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { toast } from './toast'
+	import { toast } from '../toast'
 	import FaTimes from 'svelte-icons/fa/FaTimes.svelte'
 	import { theme } from '$stores/theme'
 	const { title, duration, message, visible, closeToast, color } = toast
@@ -29,7 +29,7 @@
 </div>
 
 <style lang="scss">
-	@import '../variables.scss';
+	@import '../../variables.scss';
 	.toast-wrapper {
 		display: flex;
 		position: fixed;

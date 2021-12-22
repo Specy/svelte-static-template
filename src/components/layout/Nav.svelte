@@ -70,7 +70,7 @@
 </nav>
 
 <style lang="scss">
-	@import '../variables.scss';
+	@import '../../variables.scss';
 	.desktop-menu {
 		width: 100%;
 		display: flex;

@@ -13,7 +13,7 @@
 </div>
 
 <style lang="scss">
-	@import '../variables.scss';
+	@import '../../variables.scss';
 	.card {
 		position: relative;
 		border-radius: 0.6rem;
