@@ -89,7 +89,8 @@
 		top: 0;
 		right: 0;
 		padding-bottom: 0;
-		background-color: rgba(255, 255, 255, 0.96);
+		background-color: #f7faff;
+		opacity: 0.98;
 		width: 100%;
 		display: none;
 		flex-direction: column;
@@ -106,7 +107,7 @@
 	}
 	.navHidden {
 		transform: translateY(-5rem);
-		transition: all 0.5s ease-out;
+		transition: all 0.4s ease-out;
 	}
 	.top-mobile-menu {
 		height: 2rem;
@@ -138,7 +139,8 @@
 		height: 0;
 		display: flex;
 		padding: 0;
-		transition: all 0.4s ease-out;
+		
+		transition: all 0.3s ease-out;
 		justify-content: space-around;
 		> a {
 			padding: 0.2rem;
@@ -146,6 +148,7 @@
 		}
 	}
 	.menuOpen {
+		transition: all 0.4s ease-out;
 		opacity: 1;
 		border-bottom: solid 2px $accent;
 		height: 10rem;
@@ -157,6 +160,7 @@
 		padding: 1.5rem 2rem;
 		display: flex;
 		z-index: 10;
+		background-color: $main;
 		justify-content: space-between;
 		align-items: center;
 	}

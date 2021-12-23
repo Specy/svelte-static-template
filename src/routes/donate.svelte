@@ -5,8 +5,7 @@
 
 <div class="page">
 	<Title>Donate</Title>
-	<Card morePadding>
-		<div class="support" id="support">
+		<div style="margin-top: 1rem;">
 			<div class="text">
 				Each App I develop takes months of learning and development. Added to that are also the
 				costs of hosting. With a higher budget I can afford to not worry so much about how much I
@@ -24,11 +23,10 @@
 					<img src='/images/kofi.png' alt="kofi" style="height: 3rem;" />
 				</a>
 				<a href="https://paypal.me/specyDev" target="_blank" class="paypal">
-					<img src="/images/paypalme.png" alt="buymeacoffee" style="height: 4rem;"/>
+					<img src="/images/paypalme.png" alt="paypal" style="height: 4rem;"/>
 				</a>
 			</div>
 		</div>
-	</Card>
 </div>
 
 <style lang="scss">
