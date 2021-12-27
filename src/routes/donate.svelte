@@ -1,5 +1,4 @@
 <script lang="ts">
-	import Card from '$cmp/layout/Card.svelte'
 	import Title from '$cmp/layout/Title.svelte'
 </script>
 
