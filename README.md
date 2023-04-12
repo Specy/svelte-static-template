@@ -1,3 +1,6 @@
+# ⚠️ OUTDATED ⚠️ 
+the template needs to be updated, it's recommended to not use it yet
+
 # Svelte template
 This is the template i use when i create a new website with svelte, it includes:
 
